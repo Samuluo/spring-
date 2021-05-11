@@ -1,0 +1,58 @@
+2021-04-29 14:28:45.838 HKT [19148] LOG:  listening on IPv6 address "::1", port 5432
+2021-04-29 14:28:45.839 HKT [19148] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-04-29 14:28:46.115 HKT [19172] LOG:  database system was interrupted; last known up at 2021-04-29 08:54:34 HKT
+2021-04-29 14:28:46.730 HKT [19172] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-04-29 14:28:46.737 HKT [19172] LOG:  redo starts at 0/16F5FE0
+2021-04-29 14:28:46.738 HKT [19172] LOG:  invalid record length at 0/16F6030: wanted 24, got 0
+2021-04-29 14:28:46.738 HKT [19172] LOG:  redo done at 0/16F5FE0
+2021-04-29 14:28:47.051 HKT [19148] LOG:  database system is ready to accept connections
+2021-04-29 14:30:04.455 HKT [17280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [11984] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [13364] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [8908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [4532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [13116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [6840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [13568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [14400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:04.455 HKT [19260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.700 HKT [19444] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.700 HKT [13048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.703 HKT [14072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.704 HKT [10484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.704 HKT [10176] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.704 HKT [4800] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.705 HKT [13336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.705 HKT [11996] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.705 HKT [12368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:44.705 HKT [16388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-04-29 14:30:45.318 HKT [19148] LOG:  background worker "logical replication launcher" (PID 5972) was terminated by exception 0xC000013A
+2021-04-29 14:30:45.318 HKT [19148] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2021-04-29 14:30:45.318 HKT [19148] LOG:  terminating any other active server processes
+2021-04-29 14:30:45.330 HKT [9028] WARNING:  terminating connection because of crash of another server process
+2021-04-29 14:30:45.330 HKT [9028] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2021-04-29 14:30:45.330 HKT [9028] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2021-04-29 14:30:45.368 HKT [19148] LOG:  statistics collector process (PID 10544) was terminated by exception 0xC000013A
+2021-04-29 14:30:45.368 HKT [19148] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2021-04-29 14:30:45.369 HKT [19148] LOG:  received fast shutdown request
+^C

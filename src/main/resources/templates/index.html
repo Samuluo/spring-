@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>成员查询 - sql项目界面</title>
+    <!--<link rel="stylesheet" href="css/style.css"/>-->
+    <style>
+        body {
+            background: url('images/1.jpg') no-repeat;
+            background-size: 100% auto;
+        }
+        #parent{
+            width:500px;
+            height:200px;
+            margin-top:20%;
+            margin-left:50%;
+            transform:translate(-50%,-50%) ;
+            background:#009688;
+        }
+        .subBtn{
+            margin-top: 2%;
+            margin-left: 3%;
+        }
+        .loginHeader{
+            padding-top: 1%;
+        }
+    </style>
+</head>
+<body class="login_bg">
+<div id="parent">
+    <section class="loginBox">
+        <header class="loginHeader" style="text-align:center; ">
+            <h1>查询成员页面</h1>
+        </header>
+        <section class="loginCont">
+            <form class="loginForm"  th:action="@{/hobby}" >
+                <div class="inputbox"  style="text-align:center; ">
+                    <label for="user">爱好：</label>
+                    <input id="user" type="text" name="hobby" th:text ="hobby"placeholder="请输入爱好" required="required" />
+                </div>
+                <div class="subBtn"  style="text-align:center; ">
+                    <input type="submit" value="查询" />
+                    <input type="reset" value="重置"/>
+                </div>
+            </form>
+        </section>
+    </section>
+</div>
+</body>
+</html>
